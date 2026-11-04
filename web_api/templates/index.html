@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scan History</title>
+</head>
+<body>
+    <h1>Scan History</h1>
+    <p>
+        JSON API: <a href="/api/scans">/api/scans</a> |
+        <a href="/api/scans?region=Dortmund">/api/scans?region=Dortmund</a> |
+        <a href="/api/statistics">/api/statistics</a>
+    </p>
+    <table border="1" cellpadding="6">
+        <tr>
+            <th>ID</th>
+            <th>Region</th>
+            <th>Category</th>
+            <th>Item</th>
+            <th>Date</th>
+        </tr>
+        {% for scan in scans %}
+        <tr>
+            <td>{{ scan.scan_id }}</td>
+            <td>{{ scan.region_name }}</td>
+            <td>{{ scan.category }}</td>
+            <td>{{ scan.item_name }}</td>
+            <td>{{ scan.scan_date }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
