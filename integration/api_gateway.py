@@ -36,10 +36,10 @@ class ApiGateway:
         return self._statistics
 
     # behaviour
-    def register(self, username, password, role="citizen", region_name="Dortmund"):
+    def register(self, username, password, role="citizen", region_name="Dortmund", street="", house_number=""):
         if username in self._accounts:
             raise IntegrationError("username {} is already taken".format(username), 409)
-        account = Account(username, password, role, region_name)
+        account = Account(username, password, role, region_name, street, house_number)
         self._accounts[username] = account
         return account
 
@@ -75,7 +75,7 @@ class ApiGateway:
             result = self._classification.classify(file_name, size_mb)
         except ClassificationError as error:
             raise IntegrationError(str(error), 422)
-        recommendation = self._recommendations.recommend(result)
+        recommendation = self._recommendations.recommend(result, account.get_street(), account.get_house_number())
 
         scan_id = self._statistics.get_scan_count() + 1
         record = ScanRecord(scan_id, account.get_region_name(), recommendation.get_category(), result.get_item_name())

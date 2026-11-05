@@ -5,11 +5,13 @@ from datetime import datetime
 class Account:
     ROLES = ["citizen", "municipality"]
 
-    def __init__(self, username, password, role="citizen", region_name="Dortmund"):
+    def __init__(self, username, password, role="citizen", region_name="Dortmund", street="", house_number=""):
         self._username = username
         self._password_hash = ""
         self._role = role
         self._region_name = region_name
+        self._street = street                  # address is needed for the collection dates
+        self._house_number = str(house_number)
         self._created_at = datetime.now()
         self._scan_count = 0
         self.set_password(password)
@@ -23,6 +25,12 @@ class Account:
 
     def get_region_name(self):
         return self._region_name
+
+    def get_street(self):
+        return self._street
+
+    def get_house_number(self):
+        return self._house_number
 
     def get_created_at(self):
         return self._created_at
@@ -44,6 +52,10 @@ class Account:
 
     def set_region_name(self, region_name):
         self._region_name = region_name
+
+    def set_address(self, street, house_number):
+        self._street = street
+        self._house_number = str(house_number)
 
     # behaviour
     def check_password(self, password):

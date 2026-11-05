@@ -5,7 +5,7 @@ gateway = ApiGateway()
 gateway.setup()
 
 # one normal user and one user from the city
-gateway.register("anna", "anna123", "citizen", "Dortmund")
+gateway.register("anna", "anna123", "citizen", "Dortmund", "Sonnenstraße", "96")
 gateway.register("city", "city123", "municipality", "Dortmund")
 
 token = gateway.login("anna", "anna123")
@@ -24,7 +24,7 @@ gateway.get_statistics().show_history()
 gateway.get_accounts()["anna"].show()
 print("Recyclable items in the rules:", len(gateway.get_recommendations().find_rules_by_category("Recyclable")))
 print(gateway.get_classification())
-gateway.get_recommendations().get_schedule().show()
+gateway.get_recommendations().get_schedule_for("Sonnenstraße", "96").show()
 print()
 
 city_token = gateway.login("city", "city123")
