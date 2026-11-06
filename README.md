@@ -10,6 +10,15 @@ Capstone project group 27, Topic 2. A web app where anyone can photograph a wast
 | Mahshid Jafari | 7227434 | Recycling recommendations |
 | Ali Alagha | 7226045 | History and statistics, User interface and integration |
 
+## Presentation Links
+
+| Homework | Video |
+|---|---|
+| 1. Object Oriented Concepts | https://drive.google.com/file/d/1GSH7Z3qS5UTvWmRkjlLXRY0kqqes1lxq/view?usp=sharing |
+| 2. Real-Time Data Processing | https://drive.google.com/file/d/11px42_gCIE75xopuiBjj0V_QZxd9cE4C/view?usp=sharing |
+| 3. Web APIs & Database Access Layers | https://drive.google.com/file/d/1HCmXsQDjeA85FPR-J9T7TQv1VIAuEAvy/view?usp=sharing |
+| 4. Exception Handling and Unit Tests | _add link here_ |
+
 ## Where is the code?
 
 The `main` branch only has this overview. Every homework is in its own branch, with its own README, class diagrams and instructions how to run it.
