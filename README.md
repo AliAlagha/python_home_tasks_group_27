@@ -4,6 +4,8 @@
 
 Video: https://drive.google.com/file/d/1GSH7Z3qS5UTvWmRkjlLXRY0kqqes1lxq/view?usp=sharing
 
+Speaker: Ali Alagha
+
 ## Team Overview
 
 | Member | Student ID | Subsystem |
