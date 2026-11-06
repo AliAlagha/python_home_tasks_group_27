@@ -4,6 +4,8 @@
 
 Video: https://drive.google.com/file/d/1TWZ1_cvZAp1UbBfu4kM-dm4uV7JWMXZ9/view?usp=sharing
 
+Speaker: Mahshid Jafari
+
 ## Team Overview
 
 | Member | Student ID | Subsystem |
