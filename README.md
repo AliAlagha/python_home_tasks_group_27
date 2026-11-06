@@ -12,12 +12,12 @@ Capstone project group 27, Topic 2. A web app where anyone can photograph a wast
 
 ## Presentation Links
 
-| Homework | Video |
-|---|---|
-| 1. Object Oriented Concepts | https://drive.google.com/file/d/1GSH7Z3qS5UTvWmRkjlLXRY0kqqes1lxq/view?usp=sharing |
-| 2. Real-Time Data Processing | https://drive.google.com/file/d/11px42_gCIE75xopuiBjj0V_QZxd9cE4C/view?usp=sharing |
-| 3. Web APIs & Database Access Layers | https://drive.google.com/file/d/1HCmXsQDjeA85FPR-J9T7TQv1VIAuEAvy/view?usp=sharing |
-| 4. Exception Handling and Unit Tests | https://drive.google.com/file/d/1TWZ1_cvZAp1UbBfu4kM-dm4uV7JWMXZ9/view?usp=sharing |
+| Homework | Video | Speaker |
+|---|---|---|
+| 1. Object Oriented Concepts | https://drive.google.com/file/d/1GSH7Z3qS5UTvWmRkjlLXRY0kqqes1lxq/view?usp=sharing | Ali Alagha |
+| 2. Real-Time Data Processing | https://drive.google.com/file/d/11px42_gCIE75xopuiBjj0V_QZxd9cE4C/view?usp=sharing | Ali Alagha |
+| 3. Web APIs & Database Access Layers | https://drive.google.com/file/d/1HCmXsQDjeA85FPR-J9T7TQv1VIAuEAvy/view?usp=sharing | Amirhossein Owji |
+| 4. Exception Handling and Unit Tests | https://drive.google.com/file/d/1TWZ1_cvZAp1UbBfu4kM-dm4uV7JWMXZ9/view?usp=sharing | Mahshid Jafari |
 
 ## Where is the code?
 
